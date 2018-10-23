@@ -308,7 +308,14 @@ proc/build_syndi_buylist_cache()
 	desc = "Disguised as a screwdriver, this stealthy device can be loaded with dna injectors which will be injected into the target instantly and stealthily. The dna injector will be altered when inserted so that there will be a ten second delay before the gene manifests in the victim."
 	job = list("Geneticist")
 	not_in_crates = 1
-
+	
+/datum/syndicate_buylist/traitor/mindslave_module
+	name = "Mindslave Cloning Module"
+	item = /obj/item/cloneModule/mindslave_module
+	cost = 7
+	desc = "An add on to the genetics cloning pod that make anyone cloned loyal to whoever installed it."
+	job = list("Medical Doctor","Medical Director","Geneticist")
+	
 /datum/syndicate_buylist/traitor/minibible
 	name = "Miniature Bible"
 	item = /obj/item/storage/bible/mini
